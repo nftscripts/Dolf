@@ -9,7 +9,7 @@ import string
 
 class Process:
     def __init__(self) -> None:
-        self.headers = headers = {
+        self.headers = {
             'Accept': 'application/json',
             'Accept-Language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7',
             'Connection': 'keep-alive',
